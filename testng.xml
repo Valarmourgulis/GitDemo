@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="6">
+<listeners>
+     <listener class-name="mytest.Listeners"/>
+       </listeners>
+   
+  
+    
+   
+    
+<test name="Personel Loan ">
+ <parameter name="URL" value="qaclickacademy.com"/>
+  
+   <classes>
+      <class name="mytest.mytest2">
+          <methods>
+              <include name="choice"/>
+           </methods>
+      </class>
+      
+      
+      <class name="mytest.test2"/>
+     
+      
+    </classes>
+
+   </test>
+ <test name = "Car Loan">
+  
+   <parameter name="APIkey/username" value="123456"/>
+  
+     <classes>
+     <class name="mytest.Test3"/>
+     <class name="mytest.Test4"/>
+      
+          
+     
+   </classes>
+    </test>
+ </suite> 

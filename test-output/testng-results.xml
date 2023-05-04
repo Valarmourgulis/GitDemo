@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="13" passed="9" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-02T10:50:05 IST" name="Suite" finished-at="2023-02-02T10:50:06 IST" duration-ms="124">
+    <groups>
+      <group name="Smoke">
+        <method signature="test2.myGame()[pri:0, instance:mytest.test2@7ec7ffd3]" name="myGame" class="mytest.test2"/>
+        <method signature="Test4.MobileLoginHomeLoan()[pri:0, instance:mytest.Test4@47eaca72]" name="MobileLoginHomeLoan" class="mytest.Test4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-02-02T10:50:05 IST" name="Personel Loan " finished-at="2023-02-02T10:50:06 IST" duration-ms="114">
+      <class name="mytest.mytest2">
+        <test-method signature="choice()[pri:0, instance:mytest.mytest2@dbf57b3]" started-at="2023-02-02T10:50:05 IST" name="choice" finished-at="2023-02-02T10:50:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- choice -->
+      </class> <!-- mytest.mytest2 -->
+      <class name="mytest.test2">
+        <test-method is-config="true" signature="prequiste()[pri:0, instance:mytest.test2@7ec7ffd3]" started-at="2023-02-02T10:50:05 IST" name="prequiste" finished-at="2023-02-02T10:50:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prequiste -->
+        <test-method signature="Afsuite()[pri:0, instance:mytest.test2@7ec7ffd3]" started-at="2023-02-02T10:50:05 IST" name="Afsuite" finished-at="2023-02-02T10:50:06 IST" duration-ms="15" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at mytest.test2.Afsuite(test2.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afsuite -->
+        <test-method signature="myGame()[pri:0, instance:mytest.test2@7ec7ffd3]" started-at="2023-02-02T10:50:06 IST" name="myGame" finished-at="2023-02-02T10:50:06 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myGame -->
+      </class> <!-- mytest.test2 -->
+    </test> <!-- Personel Loan  -->
+    <test started-at="2023-02-02T10:50:05 IST" name="Car Loan" finished-at="2023-02-02T10:50:06 IST" duration-ms="124">
+      <class name="mytest.Test4">
+        <test-method signature="LoginApIHomeLoan()[pri:0, instance:mytest.Test4@47eaca72]" started-at="2023-02-02T10:50:06 IST" name="LoginApIHomeLoan" finished-at="2023-02-02T10:50:06 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApIHomeLoan -->
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:mytest.Test4@47eaca72]" started-at="2023-02-02T10:50:06 IST" name="MobileLoginHomeLoan" finished-at="2023-02-02T10:50:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method signature="WebloginHomeloan()[pri:0, instance:mytest.Test4@47eaca72]" started-at="2023-02-02T10:50:06 IST" name="WebloginHomeloan" finished-at="2023-02-02T10:50:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeloan -->
+      </class> <!-- mytest.Test4 -->
+      <class name="mytest.Test3">
+        <test-method is-config="true" signature="Bfsuite()[pri:0, instance:mytest.Test3@1aafa419]" started-at="2023-02-02T10:50:05 IST" name="Bfsuite" finished-at="2023-02-02T10:50:05 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfsuite -->
+        <test-method signature="LoginApIcarLoan()[pri:0, instance:mytest.Test3@1aafa419]" started-at="2023-02-02T10:50:05 IST" name="LoginApIcarLoan" finished-at="2023-02-02T10:50:05 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApIcarLoan -->
+        <test-method is-config="true" signature="methodExcecutesFirsts()[pri:0, instance:mytest.Test3@1aafa419]" started-at="2023-02-02T10:50:05 IST" name="methodExcecutesFirsts" finished-at="2023-02-02T10:50:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodExcecutesFirsts -->
+        <test-method signature="MobileLogincarLoan(java.lang.String,java.lang.String)[pri:0, instance:mytest.Test3@1aafa419]" started-at="2023-02-02T10:50:05 IST" name="MobileLogincarLoan" data-provider="getData" finished-at="2023-02-02T10:50:05 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogincarLoan -->
+        <test-method is-config="true" signature="methodExcecutesFirsts()[pri:0, instance:mytest.Test3@1aafa419]" started-at="2023-02-02T10:50:05 IST" name="methodExcecutesFirsts" finished-at="2023-02-02T10:50:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodExcecutesFirsts -->
+        <test-method signature="MobileLogincarLoan(java.lang.String,java.lang.String)[pri:0, instance:mytest.Test3@1aafa419]" started-at="2023-02-02T10:50:05 IST" name="MobileLogincarLoan" data-provider="getData" finished-at="2023-02-02T10:50:05 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[second password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogincarLoan -->
+        <test-method is-config="true" signature="methodExcecutesFirsts()[pri:0, instance:mytest.Test3@1aafa419]" started-at="2023-02-02T10:50:06 IST" name="methodExcecutesFirsts" finished-at="2023-02-02T10:50:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodExcecutesFirsts -->
+        <test-method signature="MobileLogincarLoan(java.lang.String,java.lang.String)[pri:0, instance:mytest.Test3@1aafa419]" started-at="2023-02-02T10:50:06 IST" name="MobileLogincarLoan" data-provider="getData" finished-at="2023-02-02T10:50:06 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogincarLoan -->
+        <test-method is-config="true" signature="methodExcecutesFirsts()[pri:0, instance:mytest.Test3@1aafa419]" started-at="2023-02-02T10:50:06 IST" name="methodExcecutesFirsts" finished-at="2023-02-02T10:50:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodExcecutesFirsts -->
+        <test-method signature="Weblogincarloan(java.lang.String,java.lang.String)[pri:0, instance:mytest.Test3@1aafa419]" started-at="2023-02-02T10:50:06 IST" name="Weblogincarloan" finished-at="2023-02-02T10:50:06 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method Weblogincarloan but has not been marked @Optional or defined
+in C:\Users\parik\eclipse-workspace\ParuApplication\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method Weblogincarloan but has not been marked @Optional or defined
+in C:\Users\parik\eclipse-workspace\ParuApplication\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Weblogincarloan -->
+        <test-method is-config="true" signature="aftclass()[pri:0, instance:mytest.Test3@1aafa419]" started-at="2023-02-02T10:50:06 IST" name="aftclass" finished-at="2023-02-02T10:50:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftclass -->
+      </class> <!-- mytest.Test3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Suite -->
+</testng-results>
