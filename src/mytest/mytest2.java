@@ -13,6 +13,7 @@ public class mytest2 {
 	@Test
 	public void choice() {
 		System.out.println("Vendetta");
+		System.out.println("Valardohairis");
 	}
 	
 	@Test
