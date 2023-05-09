@@ -20,6 +20,7 @@ public class mytest2 {
 	public void forMethod() 
 	{
 	     System.out.println("Be Aware");	
+	     System.out.println("Homonculis");
 	}
 
 }

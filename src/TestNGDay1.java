@@ -9,12 +9,21 @@ public class TestNGDay1 {
 		public  void  newone() 
 		{
 		   System.out.println("Hello");	
+		   System.out.println("hey");
 		}
 		
 		@Test
 		public void demo() 
 		{
-		   System.out.println("Bye");	
+		   System.out.println("Bye");
+		   System.out.println("kidding");
+		}
+		
+		@Test
+		public void demo1() 
+		{
+		   System.out.println("Ed");
+		   System.out.println("Alphonse");
 		}
 
 	//}
